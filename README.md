@@ -1,6 +1,10 @@
 # elseif
 Parse SQL based IF ... THEN, ELSEIF ... THEN, ELSE, END IF logic to single line IF so that cursor (for loop) logic can be executed in UPDATE statements WHERE parsed "if,else,elseif" condition
 
+`elseif.py` is the simpler sql elseif to sql if (where) version.
+
+`elseif_to_py.py` includes python parsing so that the logic can be tested with `test_elsif.py`. The test cases were generated automatically with [testpy](https://github.com/skirienkopanea/testpy)
+
 ## Sample input
 
 ```
